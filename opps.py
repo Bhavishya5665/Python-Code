@@ -188,19 +188,21 @@
 
 
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def introduc (self):
-        print(f"Hello, my name is {self.name} and I am {self.age} year old")
+#     def introduc (self):
+#         print(f"Hello, my name is {self.name} and I am {self.age} year old")
 
-class Ayush(Person):
-    pass
+# class Ayush(Person):
+#     pass
 
-x = Ayush("Doreamon", 28)
-x.introduc()
+# x = Ayush("Doreamon", 28)
+# x.introduc()
         
+print("Bhavishya is a very good boy")
+
         
 
