@@ -202,7 +202,38 @@
 # x = Ayush("Doreamon", 28)
 # x.introduc()
         
-print("Bhavishya is a very good boy")
+# print("Bhavishya is a very good boy")
 
         
 
+# print("Hello world")
+
+# print ("hello0 world")
+# print(type({}))
+# d = [i* for i in range(3)]
+# print("AI"*3)
+
+
+
+# import qrcode
+
+# # Data to encode
+# data = "https://www.example.com"
+
+# #Create QR code instance
+# # qr = qrcode(
+# #     version=1,  # controls the size of the QR code
+# #     error_correction=qrcode.constants.ERROR_CORRECT_L,  # error correction level
+# #     box_size=10,  # size of each box in pixels
+# #     border=4,  # thickness of the border
+# # )
+
+# # Add data to the QR code
+# #
+# # Create an image from the QR Code instance
+# # img = qr.make_image(fill_color="black", back_color="white")
+# qr=qrcode.make(data)
+# # Save the image
+# qr.save("qrcode.png")
+
+# print("QR code generated and saved as qrcode.png")
