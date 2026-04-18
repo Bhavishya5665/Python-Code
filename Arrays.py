@@ -93,3 +93,25 @@
 
 
 
+# class A:
+#     def show(self):
+#         print("A")
+
+# class B:
+#     def show(self):
+#         print("B")
+
+# obj = B()
+# obj.show()
+
+
+
+# import math
+# print(math.floor(2.9))
+
+# with open("file.txt ", "w") as f:
+#     f.write("Hellow")
+
+
+# with open ("file.txt", "r") as f:
+#     print(f.read())
