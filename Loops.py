@@ -75,7 +75,7 @@
 # for x in range(1,101):
 #     print(x)
 
-# x= "Nielit is a center in haridwar region"
-# if "center" in x:
-#     print("yes, center is in the x")
-# else: print("No, center is not in the x")
+x= "Nielit is a center in haridwar region"
+if "center" in x:
+    print("yes, center is in the x")
+else: print("No, center is not in the x")
