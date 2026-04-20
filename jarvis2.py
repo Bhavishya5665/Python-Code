@@ -39,8 +39,8 @@ def open_google():
     speak("Opening Google")
 
 def tell_joke():
-    joke = "Why don't scientists trust atoms? Because they make up everything!"
-    speak(joke)
+    joke = "Why don't scientists trust atoms? Because they make up everything!" 
+    speak(joke) 
 
 # def write_email():
 #     speak("What should be the subject?")

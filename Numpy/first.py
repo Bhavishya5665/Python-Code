@@ -75,3 +75,46 @@ import numpy  as np
 
 
 
+# ===================copy and view in numpy======================
+
+# arr = np.array([1,2,3,4,5])
+
+# x = arr.copy()
+# arr[0] = 42
+
+
+
+# This is the copy of array
+
+# print(arr)
+# This is the original array
+# print(x)
+
+
+
+# arr2 = np.array([1,2,3,4,5])
+
+# y = arr2.view()
+# arr2[0] = 42
+# print(arr2)
+# print(y)
+
+
+# arr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+
+# print(arr.shape)
+
+
+# arr = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
+# new = arr.reshape(4,5)
+# print(new)
+
+
+
+arr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+# print(new)
+new = arr.reshape(-1)
+                  
+print(new)                  
+
+
