@@ -1,5 +1,10 @@
+from email.mime import audio
+from re import A
+import re
+
 import pyttsx3
 import speech_recognition as sr
+import sounddevice as sd
 import webbrowser
 import datetime
 
@@ -12,23 +17,40 @@ def speak (txt):
     engine.say(txt)
     engine.runAndWait()
 
+
+
+def record_audio(duration=5, fs=44100):
+    print("Recording...")
+    audio = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='int16')
+    sd.wait()
+    # print("Recording complete.")
+    return audio, fs
+
+
+
+
 def takeCommand():
     r = sr.Recognizer()
-    with sr.Microphone() as source:
-        print("Listening...")
-        r.pause_threshold = 1
-        audio = r.listen(source)
+    # with sr.Microphone() as source:
+    #     print("Listening...")
+    #     r.pause_threshold = 1
+    #     audio = r.listen(source)
 
     try:
+        audio_data, fs = record_audio()
+
+        audio_bytes = audio_data.tobytes()
+        audio = sr.AudioData(audio_bytes, fs, 2)
         print("Recognizing...")
         command = r.recognize_google(audio, language='en-in')
         print("You said: ", command)
+        return command.lower()
 
     except Exception as e:
         print(e)
         speak("Sorry, I didn't catch that. Could you please repeat?")
         return ""
-    return command
+    # return command
 
 def open_youtube():
     webbrowser.open("https://www.youtube.com")
