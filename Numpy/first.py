@@ -116,3 +116,24 @@ import numpy  as np
 # new = arr.reshape(-1)
                   
 # print(new)
+
+
+# arr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+# arr2 = np.array([[11,12,13,14,15],[16,17,18,19,20]])
+
+# arr3 = np.concatenate((arr, arr2), axis=1)
+# print(arr3)
+
+
+
+# splitting the array
+
+# arr = np.array([1,2,3,4,5,6])
+# newarr = np.array_split(arr, 3)
+# print(newarr)
+
+
+arr = np.array([1,2,3,4,5,6,7,4,8,9])
+
+x = np.where(arr == 4)
+print(x)
