@@ -133,7 +133,11 @@ import numpy  as np
 # print(newarr)
 
 
-arr = np.array([1,2,3,4,5,6,7,4,8,9])
+# arr = np.array([1,2,3,4,5,6,7,4,8,9])
 
-x = np.where(arr == 4)
-print(x)
+# x = np.where(arr == 4)
+# print(x)
+
+
+
+
