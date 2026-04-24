@@ -80,8 +80,8 @@ import random
 
 
 
-categories = ['A','B','C','D','E']
-sales = [10,20,55,35,45]
-plt.pie(sales, labels = categories,autopct = '%1.1f%%')
-plt.title("pie chart example")
-plt.show()
+# categories = ['A','B','C','D','E']
+# sales = [10,20,55,35,45]
+# plt.pie(sales, labels = categories,autopct = '%1.1f%%')
+# plt.title("pie chart example")
+# plt.show()
