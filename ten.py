@@ -48,4 +48,3 @@ else:
 
 import numpy as np
 
-arr1 =
