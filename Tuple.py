@@ -115,3 +115,19 @@
 # print(get_your_Os)
 
 
+import pandas as pd
+# from pandas import Series
+# s = Series()
+# print(s)
+
+
+# s = pd.Series([14,21,1,2,3])
+# print(s)
+
+# s = pd.Series(["a", "b", "c" , "d"])
+# print(s)
+
+
+data ={'a':0., 'b':1.,'c':2.}
+s = pd.Series(data)
+print(s)
