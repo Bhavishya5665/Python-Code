@@ -8,3 +8,6 @@ import pandas as pd
 # zero = pd.Series(a, index = ["x","y","z","w"])
 # print(zero)
 # print("Finding out the value:", zero["x"])
+
+df = pd.read_csv(r"C:\Users\NIELIT\Downloads\data.csv")
+print(df.to_string())
