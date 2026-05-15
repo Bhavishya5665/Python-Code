@@ -55,4 +55,12 @@ import pandas as pd
 # print(df.to_string())
 
 
+# Import the file and read the data 
 
+# df = pd.read_csv(r"C:\Users\NIELIT\Downloads\data (2).csv")
+# print("original read", df.to_string())
+# print("Showing the duplicate values", df.duplicated())
+# df.drop_duplicates(inplace=True)
+# print("After removing the duplicate values", df.to_string())    
+
+# Correlation  
