@@ -36,3 +36,23 @@ import pandas as pd
 # predicted_price = model.predict([[2750]])
 # print(f"The predicted price of a house with a size of 2750 square feet is: ${predicted_price[0]:.2f}")
 
+
+# lr = pd.read_csv(r"C:\\Users\\NIELIT\\Downloads\\data.csv")
+# print(lr)
+
+
+# pd.options.display.max_rows = 80
+
+# lr = pd.read_csv(r"C:\Users\NIELIT\Downloads\data.csv")                       
+# print(lr)
+
+
+# print(lr.head(80).to_string())
+
+# print(lr.tail(80).to_string())
+
+# df = pd.read_json('https://www.w3schools.com/python/pandas/data.js')
+# print(df.to_string())
+
+
+
